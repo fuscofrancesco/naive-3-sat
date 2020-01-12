@@ -1,0 +1,28 @@
+{
+  "name": "naive-3-sat",
+  "version": "1.0.0",
+  "description": "naive solver for the 3-sat problem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuscofrancesco/naive-3-sat.git"
+  },
+  "keywords": [
+    "naive",
+    "3-sat",
+    "np-complete",
+    "np",
+    "satisfiability",
+    "np",
+    "problem"
+  ],
+  "author": "ffusco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fuscofrancesco/naive-3-sat/issues"
+  },
+  "homepage": "https://github.com/fuscofrancesco/naive-3-sat#readme"
+}
