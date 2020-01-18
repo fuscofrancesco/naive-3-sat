@@ -44,6 +44,17 @@ class NaiveSat {
       }
     });
   }
+
+  /* Print util */
+  printSat() {
+    if(this.isSat) {
+      console.log(`
+        Expression ${this.expression} is satifiable.
+        A possible assignment is: ${JSON.stringify(this.satAssignment)}
+        Its interpretations is: ${JSON.stringify(this.satInterpretation)}
+      `);
+    } else console.log(`  Expression ${this.expression} is not satifiable.`);
+  }
 }
 
 exports.NaiveSat = NaiveSat;

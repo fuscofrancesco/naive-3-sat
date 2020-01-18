@@ -1,8 +1,8 @@
 {
   "name": "naive-3-sat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "naive solver for the 3-sat problem",
-  "main": "index.js",
+  "main": "NaiveSat.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
