@@ -21,13 +21,13 @@ To formulate the expression, you can use:
 
 Using runkit. Simply click [here](https://npm.runkit.com/naive-3-sat) and copy/paste this code:
 ```javascript
-const NaiveSat = require("naive-3-sat");
+const { NaiveSat } = require("naive-3-sat");
 
 const expr = '((!a & b) | (b | c)) & (c & !a)';
 
-const naiveSat = new NaiveSat(expr);
+const nsat = new NaiveSat(expr);
 
-naiveSat.printSat();
+nsat.printSat();
 
 ```
 

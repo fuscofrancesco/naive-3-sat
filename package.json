@@ -1,6 +1,6 @@
 {
   "name": "naive-3-sat",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "naive solver for the 3-sat problem",
   "main": "NaiveSat.js",
   "scripts": {
